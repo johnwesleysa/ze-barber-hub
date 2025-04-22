@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
+# 💈 Ze Barber Hub - Website Oficial
 
-## Project info
+Este projeto é o site institucional da **Ze Barber Hub**, uma barbearia com estilo, atitude e tradição. Desenvolvido com foco em apresentação digital e experiência do usuário, o site funciona como uma vitrine moderna para atrair e fidelizar clientes.
 
-**URL**: https://lovable.dev/projects/afa94512-f06c-4f70-876d-ddec397fd41f
+🔗 **Acesse agora:**  
+👉 [https://ze-barber-hub.vercel.app](https://ze-barber-hub.vercel.app)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Funcionalidades
 
-**Use Lovable**
+- Imagem de fundo impactante com estilo clássico
+- Tipografia personalizada no estilo barbearia
+- Seção de serviços oferecidos
+- Contato rápido e integração com redes sociais
+- Layout 100% responsivo para celulares, tablets e desktops
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/afa94512-f06c-4f70-876d-ddec397fd41f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ Tecnologias Utilizadas
 
-**Use your preferred IDE**
+- ⚛️ **React**  
+- 🎨 **Tailwind CSS**  
+- ⚡ **Vite**  
+- 🧠 **TypeScript**  
+- 🧩 **shadcn-ui**  
+- 💡 **Lovable.dev** como base para prototipagem rápida
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Como editar ou rodar o projeto localmente
 
-Follow these steps:
+Você pode clonar este projeto e rodar em sua máquina com os seguintes comandos:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# 1. Clone o repositório
+git clone https://github.com/SEU_USUARIO/ze-barber-hub.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Acesse o diretório
+cd ze-barber-hub
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/afa94512-f06c-4f70-876d-ddec397fd41f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
