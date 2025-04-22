@@ -5,25 +5,25 @@
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
+    --background: 240 10% 0.7%; /* #020300 */
     --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
+    --card: 240 10% 0.7%;
     --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
+    --popover: 240 10% 0.7%;
     --popover-foreground: 0 0% 98%;
-    --primary: 51 76% 52%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 240 3.7% 15.9%;
+    --primary: 55 98% 64%; /* #FDE74C */
+    --primary-foreground: 240 10% 0.7%;
+    --secondary: 193 84% 29%; /* #0C7489 */
     --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 51 76% 52%;
-    --accent-foreground: 0 0% 100%;
+    --muted: 32 42% 54%; /* #C08552 */
+    --muted-foreground: 0 0% 98%;
+    --accent: 23 45% 38%; /* #895737 */
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 51 76% 52%;
+    --border: 32 42% 54%;
+    --input: 32 42% 54%;
+    --ring: 55 98% 64%;
     --radius: 0.5rem;
   }
 }
@@ -31,7 +31,11 @@
 @layer base {
   body {
     @apply bg-background text-foreground antialiased;
-    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
   }
 }
 
@@ -40,6 +44,5 @@
 }
 
 .glass-effect {
-  @apply bg-white/5 backdrop-blur-sm border border-white/10;
+  @apply bg-black/40 backdrop-blur-sm border border-white/10;
 }
-

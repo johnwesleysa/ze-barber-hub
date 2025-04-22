@@ -1,4 +1,3 @@
-
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -36,22 +35,25 @@ const Index = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center bg-[url('/barber-bg.jpg')] bg-cover bg-center relative"
+        className="min-h-screen flex items-center justify-center bg-[url('/hero-barber.jpg')] bg-cover bg-center relative"
+        style={{ backgroundPosition: '75% center' }}
       >
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/70" />
         <div className="container mx-auto px-4 text-center relative z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">Barbearia do Zé</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <span className="text-gradient">Corte com estilo.</span><br />
+            <span className="text-gradient">Tradição e atitude.</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200">
-            Tradição e estilo em cada corte
-          </p>
           <Button
             size="lg"
-            className="text-lg"
+            className="text-lg bg-primary text-background hover:bg-primary/90 mt-8"
             asChild
           >
-            <a href="#servicos">Ver Serviços</a>
+            <a href={`https://wa.me/5511999999999?text=${encodeURIComponent('Olá! Gostaria de agendar um horário.')}`}
+               target="_blank" 
+               rel="noopener noreferrer">
+              Agende seu horário
+            </a>
           </Button>
         </div>
       </section>
