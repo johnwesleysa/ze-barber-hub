@@ -39,6 +39,9 @@ const Index = () => {
         style={{ backgroundPosition: '75% center' }}
       >
         <div className="absolute inset-0 bg-black/70" />
+
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-b from-transparent to-[#020300] pointer-events-none" />
+
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             <span className="text-gradient">Corte com estilo.</span><br />
@@ -100,16 +103,19 @@ const Index = () => {
             Nossa Galeria
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+            {['galeria1.jpg', 'galeria2.jpg', 'galeria3.jpg', 'galeria4.jpg'].map((img, i) => (
               <div key={i} className="aspect-square bg-secondary rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-muted flex items-center justify-center">
-                  <span className="text-muted-foreground">Imagem {i}</span>
-                </div>
+                <img
+                  src={`/images/${img}`}
+                  alt={`Imagem ${i + 1}`}
+                  className="w-full h-full object-cover"
+                />
               </div>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* Depoimentos Section */}
       <section id="depoimentos" className="py-20 bg-secondary">
